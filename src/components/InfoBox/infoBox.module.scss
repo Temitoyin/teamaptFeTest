@@ -1,0 +1,53 @@
+@import '../../assets/styles/shared-styles.scss';
+.infoBox{
+    color: white;
+    padding: 24px 27px;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.39) -213.5%, rgba(255, 255, 255, 0) 100%);
+    box-shadow: 0px 2px 0px 0px #FFFFFF3D inset;
+    box-shadow: 0px -1px 11px 0px #FFFFFF2B inset;
+    width: 425px;
+    border-radius: 8px;
+    margin: 24px auto 0 auto;
+    @include media("<=tablet"){
+        width: 84%;
+
+    }
+    h1{
+       
+        text-align: center;
+        font-weight: 700;
+        font-size: 16px;
+    }
+    &__list{
+        margin: 16px 0 8px 0;
+        font-size: 14px;
+        padding-left: 17px;
+        li:first-child{
+            margin-bottom: 5px;
+        }
+        span{
+            font-weight: 800;
+        }
+    }
+    &__subText{
+        font-size: 14px;
+        font-weight: 400;
+        margin-bottom: 16px;
+    }
+    &__notification{
+        display: flex;
+        background: rgba(0, 0, 0, 0.3);
+        border-radius: 10px;
+        padding: 10px;
+        span{
+            font-size: 12px;
+            font-weight: 800;
+        }
+        p{
+            font-size: 12px;
+            line-height: 19.2px;
+            margin-left: 4px;
+
+        }
+    }
+}

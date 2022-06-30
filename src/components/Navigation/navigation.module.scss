@@ -1,0 +1,23 @@
+.navigation{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    &__date{
+        width: 100px;
+        display: flex;
+        align-items: center;
+        &_info{
+            margin-left: 10px;
+            p{
+                color: white;
+                font-size: 18px;
+                font-weight: 700;
+            }
+            small{
+color: rgba(255, 255, 255, 0.6);
+font-size: 14px;
+
+            }
+        }
+    }
+}

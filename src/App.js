@@ -134,7 +134,7 @@ function App() {
       <main>
         <div className={styles.app__heading}>
           <h1 id="headerTxt1">
-            Unlock to <span>Power</span>
+            Unlock to <span> Power</span>
           </h1>
           <h2 id="headerTxt2">
             <span>Power </span>your dreams!

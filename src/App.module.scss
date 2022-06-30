@@ -44,6 +44,8 @@ body {
         h1 {
             font-size: 70px;
             font-weight: 300;
+            display: flex;
+            justify-content: center;
 
             span {
                 display: none;
@@ -52,6 +54,7 @@ body {
                     display: inline;
                     font-size: 40px;
                     font-weight: 700;
+                    margin-left: 4px;
                 }
             }
 
@@ -70,6 +73,7 @@ body {
         }
 
         @include media('<=tablet') {
+            line-height: 40.8px;
             h1 {
                 font-size: 40px;
                 font-weight: 400;

@@ -46,7 +46,9 @@ body {
             font-weight: 300;
             display: flex;
             justify-content: center;
-
+@include media('<=sphone') {
+        font-size: 30px !important;
+    }
             span {
                 display: none;
 
@@ -56,6 +58,7 @@ body {
                     font-weight: 700;
                     margin-left: 4px;
                 }
+               
             }
 
         }

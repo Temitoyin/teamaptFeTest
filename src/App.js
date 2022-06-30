@@ -159,7 +159,7 @@ function App() {
         <div id="button">
           <Button />
         </div>
-        <div id="bottom">
+        <div id="bottom" className={styles.app__bottom}>
           <Icon
             name="btm-asset1"
             id="btm-asset1"

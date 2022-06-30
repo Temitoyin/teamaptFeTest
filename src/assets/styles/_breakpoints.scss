@@ -1,6 +1,7 @@
 @use "sass:math";
 
 $breakpoints: (
+     "sphone": 375px,
   "phone": 425px,
   "tablet": 768px,
   "sdesktop": 1024px,

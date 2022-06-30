@@ -20,13 +20,18 @@ body {
 }
 
 .app {
+    box-sizing: border-box;
     position: relative;
-    height: 97vh;
+    height: 100vh;
     padding: 44px 104px 0px 104px;
 
     @include media('<=tablet') {
-        padding: 35px 19px 0px 19px;
+        padding: 35px 19px 800px 19px;
     }
+        @include media('<sphone') {
+            height: 100vh;
+            padding: 35px 19px 1000px 19px;
+        }
 
     overflow: hidden;
 
@@ -175,6 +180,11 @@ body {
             }
         }
     }
+    // &__bottom{
+    //     @include media("<=tablet"){
+    //    height: 50vh;
+    //     }
+    // }
 
     .btm_asset1,
     .btm_asset2,

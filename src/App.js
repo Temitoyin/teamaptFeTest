@@ -121,7 +121,7 @@ function App() {
       },
       {
         y: 0,
-        stagger: 0.9,
+        stagger: 0.7,
         duration: 10,
         opacity: 0.8,
       }

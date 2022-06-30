@@ -142,9 +142,11 @@ function App() {
         </div>
         <div className={styles.app__subheading}>
           <h3 id="subTxt1">
-            Stand a chance to win <span>N3,000,000</span>{" "}
+            Stand a chance to win <span>N3,000,000</span>
           </h3>
-          <h4 id="subTxt2">everyday for the next 5 days</h4>
+          <h4 id="subTxt2">
+            <span>N3,000,000</span> everyday for the next 5 days
+          </h4>
         </div>
         <Icon name="star1" className={styles.star1} />
         <Icon name="star2" className={styles.star2} />

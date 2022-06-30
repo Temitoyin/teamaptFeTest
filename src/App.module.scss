@@ -162,6 +162,11 @@ body {
             font-weight: 400;
             animation: reveal 1.5s cubic-bezier(0.77, 0, 0.175, 1) 0.5s
         }
+        h3{
+            span{
+                display: none;
+            }
+        }
 
         span {
             font-weight: 700;
@@ -173,6 +178,17 @@ body {
             h4 {
                 font-size: 16px;
                 font-weight: 400;
+
+            }
+            h3{
+                span{
+                    display: inline;
+                }
+            }
+            h4{
+                span{
+                    display: none;
+                }
             }
 
             span {
